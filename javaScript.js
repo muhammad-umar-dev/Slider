@@ -8,7 +8,11 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-    showSlides(slideIndex += n);
+    if (n === 1) {
+        showSlides(slideIndex += n);
+    } else {
+        showSlides(slideIndex -= n);
+    }
 }
 
 // Thumbnail image controls

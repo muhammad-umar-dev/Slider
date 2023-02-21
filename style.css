@@ -74,10 +74,10 @@
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover,
+/* .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 
 /* The dots/bullets/indicators */
 .dot {
@@ -115,7 +115,7 @@
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
   .prev,
   .next {
     display: none;
